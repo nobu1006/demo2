@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>九九表</title>
+</head>
+<body>
+<form th:action="@{/multi/exec}" method="post">
+    数字を入力してください<br>
+    <input type="text" name="num">
+    <button>送信</button>
+</form>
+</body>
+</html>
